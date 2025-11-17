@@ -1,0 +1,10 @@
+{
+  "name": "trail-pathfinder-ai",
+  "version": "1.0.0",
+  "description": "AI terrain and weather-based trail prediction engine for cyclists and hikers, generating optimal safe routes using geospatial scoring.",
+  "main": "bin/autoinit.js",
+  "bin": { "autoinit": "./bin/autoinit.js" },
+  "scripts": { "start": "node bin/autoinit.js" },
+  "dependencies": { "axios": "^1.6.2", "inquirer": "^9.2.0" },
+  "license": "MIT"
+}
